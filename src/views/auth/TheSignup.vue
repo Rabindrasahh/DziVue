@@ -58,8 +58,10 @@
                   />
                   <label class="form-check-label" for="flexCheckDefault">
                     I agree the
-                    <a href="#" class="text-dark font-weight-bolder"
-                      >Terms and Conditions</a
+                    <router-link
+                      :to="{ name: 'TheTermAndCondition' }"
+                      class="text-bright font-weight-bolder"
+                      >Terms and Conditions</router-link
                     >
                   </label>
                   <span
